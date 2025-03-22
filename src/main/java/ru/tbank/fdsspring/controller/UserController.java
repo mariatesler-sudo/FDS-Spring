@@ -16,15 +16,15 @@ public class UserController {
         return ResponseEntity.ok().build();
     }
     @GetMapping("/{id}")
-    public ResponseEntity<?> getCurrenciesById(@PathVariable String id) {
+    public ResponseEntity<?> getCurrenciesById() {
         return ResponseEntity.ok().build();
     }
     @PostMapping("/{id}")
-    public ResponseEntity<?> postCurrenciesById(@PathVariable String id) {
+    public ResponseEntity<?> postCurrenciesById() {
         return ResponseEntity.ok().build();
     }
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> deleteCurrenciesById(@PathVariable String id) {
+    public ResponseEntity<?> deleteCurrenciesById() {
         return ResponseEntity.ok().build();
     }
 }
