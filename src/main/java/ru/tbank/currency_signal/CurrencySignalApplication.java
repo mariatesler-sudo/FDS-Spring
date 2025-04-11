@@ -1,13 +1,11 @@
-package ru.tbank.fdsspring;
+package ru.tbank.currency_signal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FdsSpringApplication {
-
+public class CurrencySignalApplication {
     public static void main(String[] args) {
-        SpringApplication.run(FdsSpringApplication.class, args);
+        SpringApplication.run(CurrencySignalApplication.class, args);
     }
-
 }
