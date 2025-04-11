@@ -11,4 +11,4 @@ public interface CurrencyRepository extends JpaRepository<Currency, Long> {
     List<Currency> findAll();
 }
 
-//vhbjnkml
+//vhbjnkmllm
