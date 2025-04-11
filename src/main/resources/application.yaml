@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://db:5432/currency_db
+    url: jdbc:postgresql://db:5432/currencydb
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
