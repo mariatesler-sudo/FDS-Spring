@@ -1,18 +1,18 @@
 databaseChangeLog:
   - changeSet:
       id: 001-create-currency-table
-      author: me
+      author: you
       changes:
         - createTable:
             tableName: currency
             columns:
               - column:
                   name: id
-                  type: BIGINT
-                  autoIncrement: true
+                  type: UUID
                   constraints:
                     primaryKey: true
                     nullable: false
+                  defaultValueComputed: "gen_random_uuid()"
               - column:
                   name: name
                   type: VARCHAR(100)
@@ -30,3 +30,7 @@ databaseChangeLog:
               - column:
                   name: description
                   type: TEXT
+              - column:
+                  name: deleted
+                  type: BOOLEAN
+                  defaultValueBoolean: false
